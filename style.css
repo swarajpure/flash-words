@@ -1,7 +1,23 @@
-.visible{
+.visible {
     color: black;
 }
 
 .invisible {
     color: white;
 }
+
+#output {
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 50%;
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 2em;
+}
+
+#divStart {
+    display: grid;
+    place-items: center;
+    margin-top: 2em;
+}
+
